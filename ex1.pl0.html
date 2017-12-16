@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<TITLE>compiled source program</TITLE>
+</HEAD>
+<BODY>
+<PRE>
+
+
+  <b>function</b> multiply(x, y)
+     <b>var</b> a,b,c;
+    <b>begin</b>
+      a:=x; b:=y; c:=0;
+      <b>while</b> b>0 <b>do</b>
+        <b>begin</b>
+          <b>if</b> <b>odd</b> b <b>then</b> c:=c+a;
+          a:=2*a; b:=b/2;
+        <b>end</b>
+      <b>return</b> c;
+    <b>end</b>;
+
+<b>const</b> m=7,n=85;
+<b>var</b> x,y;
+
+<b>begin</b>
+  x:=m; y:=n;
+  <b>write</b> x; <b>write</b> y; <b>writeln</b>; <b>write</b> multiply(x,y); <b>writeln</b>
+<b>end</b>.
+</PRE>
+</BODY>
+</HTML>
