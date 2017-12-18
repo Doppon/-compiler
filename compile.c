@@ -224,17 +224,6 @@ void statement()			/*　文のコンパイル　*/
 			token = nextToken();
 			genCodeO(wrl);				/*　改行を出力するwrl命令　*/
 			return;
-		case Read:
-			token.kind == Id;
-			tIndex = searchT(token.u.id, varId);
-			kindT(tIndex) == varId;
-			setIdKind(key=kindT(tIndex));
-			if (key != varId)
-				 errorType("var");
-			//エラー処理
-			genCodeO(red); genCodeT(sto, tIndex);
-			token = nextToken();
-			return;
 		case End: case Semicolon:			/*　空文を読んだことにして終り　*/
 			return;
 		default:				/*　文の先頭のキーまで読み捨てる　*/

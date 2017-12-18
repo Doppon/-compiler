@@ -1,0 +1,7 @@
+var x;
+
+begin
+ read x;
+ write x+1;
+ writeln
+end.
