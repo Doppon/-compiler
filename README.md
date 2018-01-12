@@ -13,3 +13,7 @@
 `$ gcc main2.c getSource.c`
 
 `$ ./a.out` -> 確認したファイルを選択
+
+## 第五回の改良内容
+
+- Read,Lbrac,Rbracの追加(getSource)
