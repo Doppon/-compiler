@@ -10,7 +10,7 @@ main()
 	printf("enter source file name\n");
 	scanf("%s", fileName);
 	if (!openSource(fileName))	/*　ソースプログラムファイルのopen　*/
-		return;			/*　openに失敗すれば終わり　*/
+		return 0;			/*　openに失敗すれば終わり　*/
 	if (compile())			/*　コンパイルして　*/
 		execute();			/*　エラーがなければ実行　*/
 	closeSource();			/*　ソースプログラムファイルのclose　*/
