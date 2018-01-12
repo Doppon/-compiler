@@ -6,4 +6,4 @@
 
 `$ ./pl0d`
 
-`$ nter source file name`と表示されるのでコンパイルしたいファイルを選択
+`$ nter source file name`と表示されるのでコンパイルしたいファイルを選択
