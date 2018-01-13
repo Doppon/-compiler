@@ -16,4 +16,8 @@
 
 ## 第五回の改良内容
 
-- Read,Lbrac,Rbracの追加(getSource)
+- Read,Lbrac,Rbracの追加(getSource
+
+## 第七回の改良内容
+
+
